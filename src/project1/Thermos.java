@@ -18,6 +18,7 @@ public class Thermos {
 	void display()
 	{
 		System.out.println("Liquid is "+liquid);
+		System.out.println("brand is new "+brand);
 	}
 	
 	public static void main(String args[]) {
