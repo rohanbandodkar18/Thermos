@@ -1,7 +1,7 @@
 package project1;
 
 public class Thermos {
-	float qty;
+	double qty;
 	String brand;
 	String liquid;
 	
@@ -13,7 +13,7 @@ public class Thermos {
 	}
 	void add(double val)
 	{
-		qty = qty = val;
+		qty = qty + val;
 	}
 	void display()
 	{
